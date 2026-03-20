@@ -2,11 +2,9 @@
 SpeedyPizza — 線上披薩訂購系統
 一個簡單的 Flask 應用程式，提供披薩菜單瀏覽、線上訂購與訂單查詢功能。
 """
-"""
-下面改成rom
-"""
+
 import sqlite3
-rom flask import Flask, render_template, request, redirect, url_for, g
+from flask import Flask, render_template, request, redirect, url_for, g
 from config import SECRET_KEY, DATABASE, DEBUG, APP_VERSION, GITHUB_REPO_URL
 
 app = Flask(__name__)
